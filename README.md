@@ -1,13 +1,13 @@
 # AIR: Complex Instruction Generation via Automatic Iterative Refinement
-[![Hugging Face](https://img.shields.io/badge/��%20Hugging%20Face-Datasets-blue)](https://huggingface.co/datasets/[your-repo-name])
-[![arXiv](https://img.shields.io/badge/arXiv-2401.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2502.XXXXX)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Datasets-blue)](https://huggingface.co/datasets/MengGaoang/AIR)
+[![arXiv](https://img.shields.io/badge/arXiv-2502.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2502.XXXXX)
 
 This is the official implementation of our paper "AIR: Complex Instruction Generation via Automatic Iterative Refinement". We propose a novel Automatic Iterative Refinement (AIR) framework to generate complex instructions with constraints, significantly enhancing LLMs' ability to follow complex instructions.
 
 ## Installation
 
 ```bash
-git clone https://github.com/[username]/AIR
+git clone https://github.com/LiuWeiHITees/AIR
 cd AIR
 pip install -r requirements.txt
 ```
