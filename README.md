@@ -69,6 +69,8 @@ python ./init_process/instruct_score_filter.py \
 ```
 
 ### Generate and Process Judge Data
+
+#### scripts
 ```bash
 # Generate judge data (max 5 iterations)
 bash ./judge_data_gene/run_main.sh
@@ -76,6 +78,27 @@ bash ./judge_data_gene/run_main.sh
 # Process for SFT training
 bash ./judge_data_process/data_process_0207.sh
 ```
+
+#### Models Used
+- [Llama-3-8B-UltraChat](https://huggingface.co/princeton-nlp/Llama-3-Base-8B-SFT)
+- Qwen-2.5-7B-UltraChat (Custom fine-tuned version) 
+- [Llama-3-8B-Tulu](https://huggingface.co/Magpie-Align/Llama-3-8B-Tulu-330K)
+
+#### Guidance Models Used
+- [Meta-Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) (for Llama series)
+- [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct) (for Qwen series)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🔄 Training
 
