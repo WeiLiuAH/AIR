@@ -25,7 +25,7 @@ The framework produces more challenging and realistic instructions, leading to i
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/LiuWeiHITees/AIR
+git clone https://github.com/WeiLiuAH/AIR
 cd AIR
 pip install -r requirements.txt
 ```
