@@ -11,7 +11,7 @@ few_shot_constraints_path=./data/few_shot_constraints.jsonl
 few_shot_constraints_combine_path=./data/few_shot_constraints_combine.jsonl
 output_path=./data/llm_as_a_judge_${model_name}.jsonl
 
-# 润色
+
 python ${py_path} \
     -i ${input_path} \
     -o ${output_path} \
@@ -19,7 +19,7 @@ python ${py_path} \
     -few_shot_constraints ${few_shot_constraints_path} \
     -few_shot_constraints_combine_path ${few_shot_constraints_combine_path}
 
-# 8b模型产生自己的回复
+
 python ${py_path} \
     -i ${output_path} \
     -o ${output_path} \
@@ -28,9 +28,7 @@ python ${py_path} \
     -few_shot_constraints_combine_path ${few_shot_constraints_combine_path}
 
 
-# 循环5次
 for i in {1..5}; do
-    echo "第${i}次循环"
     python ${py_path} \
         -i ${output_path} \
         -o ${output_path} \
@@ -54,7 +52,7 @@ for i in {1..5}; do
 done
 
 
-# 最后的处理
+
 python ${py_path} \
     -i ${output_path} \
     -o ${output_path} \
