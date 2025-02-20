@@ -90,16 +90,6 @@ bash ./judge_data_process/data_process_0207.sh
 
 
 
-
-
-
-
-
-
-
-
-
-
 ## 🔄 Training
 
 ### Quick Start with Pre-processed Dataset
