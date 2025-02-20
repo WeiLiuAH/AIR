@@ -2,8 +2,6 @@
     <img src="logo/air.png" alt="AIR Logo" width="100"/>
 
 # AIR: Complex Instruction Generation via Automatic Iterative Refinement
-[![Hugging Face Datasets](https://img.shields.io/badge/🤗_Hugging_Face-Datasets-blue)](https://huggingface.co/datasets/MengGaoang/AIR)
-[![arXiv](https://img.shields.io/badge/arXiv-2502.XXXXX-b31b1b.svg)](https://arxiv.org/abs/2502.XXXXX)
 </div>
 
 ## 🌟 Overview
@@ -25,8 +23,6 @@ The framework produces more challenging and realistic instructions, leading to i
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/WeiLiuAH/AIR
-cd AIR
 pip install -r requirements.txt
 ```
 
@@ -92,31 +88,8 @@ bash ./judge_data_process/data_process_0207.sh
 
 ## 🔄 Training
 
-### Quick Start with Pre-processed Dataset
-Download our processed dataset directly from Hugging Face:
-- [AIR Dataset](https://huggingface.co/datasets/MengGaoang/AIR)
-
-### Compatible Models
 We support training using [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) with the following models:
 
 - [Llama-3-8B-UltraChat](https://huggingface.co/princeton-nlp/Llama-3-Base-8B-SFT)
 - Qwen-2.5-7B-UltraChat (Custom fine-tuned version)
 - [Llama-3-8B-Tulu](https://huggingface.co/Magpie-Align/Llama-3-8B-Tulu-330K)
-
-
-## 📝 Citation
-
-If you find this work helpful, please cite our paper:
-```bibtex
-@article{air2025,
-  title={AIR: Complex Instruction Generation via Automatic Iterative Refinement},
-  author={},
-  journal={arXiv preprint arXiv:},
-  year={2025}
-}
-```
-
-## 🙏 Acknowledgements
-
-- [LlamaFactory](https://github.com/hiyouga/LLaMA-Factory) - For providing the training framework
-- [Dolma Dataset](https://huggingface.co/datasets/emozilla/dolma-v1_7-cc_en_head) - For the base dataset
