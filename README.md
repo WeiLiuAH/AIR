@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="log/air.png" alt="AIR Logo" width="200"/>
+    <img src="logo/air.png" alt="AIR Logo" width="200"/>
 
 # AIR: Complex Instruction Generation via Automatic Iterative Refinement
 [![Hugging Face Datasets](https://img.shields.io/badge/🤗_Hugging_Face-Datasets-blue)](https://huggingface.co/datasets/MengGaoang/AIR)
