@@ -1,7 +1,7 @@
+torch
 vllm
 transformers
 sentence_transformers
-torch
 pandas
 numpy
 json
