@@ -3,5 +3,6 @@ vllm
 transformers
 sentence_transformers
 scikit-learn
-pandas
 numpy
+pandas
+
