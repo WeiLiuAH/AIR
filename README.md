@@ -31,7 +31,9 @@ pip install -r requirements.txt
 ### Download Dolma Dataset
 ```bash
 # Download dataset chunks
-huggingface-cli download --repo-type dataset --local-dir-use-symlinks False emozilla/dolma-v1_7-cc_en_head --local-dir ./data/dolma --include "*{000,001,002}_00000.parquet*"
+huggingface-cli download --repo-type dataset --local-dir-use-symlinks False emozilla/dolma-v1_7-cc_en_head --local-dir ./data/dolma --include "*000_00000.parquet*"
+huggingface-cli download --repo-type dataset --local-dir-use-symlinks False emozilla/dolma-v1_7-cc_en_head --local-dir ./data/dolma --include "*001_00000.parquet*"
+huggingface-cli download --repo-type dataset --local-dir-use-symlinks False emozilla/dolma-v1_7-cc_en_head --local-dir ./data/dolma --include "*002_00000.parquet*"
 ```
 
 ### Initial Processing
